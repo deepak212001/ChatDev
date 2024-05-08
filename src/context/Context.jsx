@@ -48,7 +48,7 @@ const ContextProvider = (props) => {
                 newResponse += "</br><b>" + responseArray[i] + "</b>";
             }
             if(i==responseArray.length-1){
-                newResponse+="</br>";
+                newResponse+="</br></br></br>";
         }
         let newresponse1 = newResponse.split("*").join(" ")
         let newResponseArray = newresponse1.split(" ");
